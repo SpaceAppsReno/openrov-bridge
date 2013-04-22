@@ -1,0 +1,19 @@
+{
+  "name": "node-mosquito",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "mqtt": ">=0.2.5",
+    "socket.io": ">=0.9.14",
+    "socket.io-client": "*",
+    "express": "3.1.1",
+    "ejs": "*",
+    "ejs-locals": "*"
+  }
+}
